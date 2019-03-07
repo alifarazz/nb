@@ -9,7 +9,7 @@ conan_basic_setup()
 
 file(GLOB NBodySRC
     "src/header/*.hpp"
-    "src/*.cpp"
+    "src/*.cc"
 )
 
 add_executable(${PROJECT_NAME} ${NBodySRC})
